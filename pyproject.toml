@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "reflexionagent"
+version = "0.1.0"
+description = ""
+authors = ["gustbr <hello@augustinbrun.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dotenv = "^1.0.1"
+black = "^24.10.0"
+isort = "^5.13.2"
+langchain = "^0.3.7"
+langchain-openai = "^0.2.9"
+langgraph = "^0.2.53"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
